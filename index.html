@@ -1,0 +1,410 @@
+<!doctype html><html lang="sk"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Industry Coffee Bar · káva, raňajky a lunch menu, Budovateľská 34/A, Prešov — neoficiálny návrh</title>
+<meta name="description" content="Neoficiálny návrh webu pre Industry Coffee Bar v Prešove: lunch menu Po–Pi 11:30–14:30, raňajky a káva, kontakt a hodiny.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Michroma:ital,wght@0,400&family=Saira+Semi+Condensed:ital,wght@0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --body:#2B3235;      /* lak stroja */
+  --body-d:#222829;
+  --anod:#141617;      /* čierny eloxovaný štítok */
+  --alu:#C9CDCF;       /* hliníkové písmo */
+  --txt:#E3E6E3;
+  --mut:#A3AAAD;
+  --yel:#F2C318;       /* žltá z ich loga */
+  --crema:#C28B57;     /* káva */
+  --stamp:#2A3033;
+  --hl:rgba(227,230,227,.14);
+  --wide:"Michroma","Eurostile","Microgramma","Arial Black",sans-serif;
+  --semi:"Saira Semi Condensed","Roboto Condensed","Arial Narrow",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--body);color:var(--txt);font:400 18px/1.5 var(--semi);font-variant-numeric:tabular-nums}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--yel);outline-offset:3px}
+.g{max-width:1200px;margin:0 auto;padding:0 32px}
+.lbl{font:600 12px/1.3 var(--semi);letter-spacing:.2em;text-transform:uppercase;color:var(--mut)}
+
+/* nit */
+.rv{position:absolute;width:12px;height:12px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#f1f2f2 0,#a8adb0 45%,#5d6265 100%);box-shadow:0 1px 1px rgba(0,0,0,.5)}
+.rv.tl{top:12px;left:12px}.rv.tr{top:12px;right:12px}.rv.bl{bottom:12px;left:12px}.rv.br{bottom:12px;right:12px}
+
+/* upozornenie */
+.ntc{background:var(--body-d);border-bottom:1px solid var(--hl);font:500 14px/1.4 var(--semi);color:var(--mut);padding:9px 0}
+.ntc b{color:var(--txt);font-weight:700}
+
+/* hlavička */
+.hdr .g{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:86px}
+.logo{display:flex;align-items:center;gap:16px;text-decoration:none}
+.logo img{width:62px;height:44px;object-fit:cover;background:#0a0a0a;padding:4px;border-radius:3px;box-shadow:0 0 0 1px rgba(255,255,255,.12)}
+.logo b{display:block;font:400 15px/1.2 var(--wide);letter-spacing:.14em;color:var(--yel)}
+.logo small{display:block;font:500 13px/1.2 var(--semi);letter-spacing:.12em;text-transform:uppercase;color:var(--mut);margin-top:4px}
+.nv{display:flex;align-items:center;gap:26px}
+.nv a{font:600 15px/1 var(--semi);letter-spacing:.14em;text-transform:uppercase;text-decoration:none;color:var(--txt);padding:14px 0;border-bottom:1px solid transparent;transition:border-color .2s,color .2s}
+.nv a:hover{color:var(--yel);border-bottom-color:var(--yel)}
+.nv .ph{background:var(--yel);color:#141617;padding:14px 18px;border:0;letter-spacing:.06em}
+.nv .ph:hover{background:#fff;color:#141617}
+
+/* hero — štítok cez fotku */
+.hero{padding:26px 0 70px}
+.hero .g{display:grid;grid-template-columns:repeat(12,1fr);align-items:start}
+.frame{margin:0;grid-column:5/13;grid-row:1;position:relative;background:#101213;padding:14px;border-radius:2px}
+.frame img{width:100%;aspect-ratio:1072/673;object-fit:cover}
+.frame figcaption{position:absolute;right:26px;bottom:26px;font:500 13px/1.2 var(--semi);letter-spacing:.06em;background:rgba(16,18,19,.8);color:var(--mut);padding:6px 10px}
+.plate{grid-column:1/8;grid-row:1;margin-top:104px;position:relative;z-index:2;background:linear-gradient(180deg,#1b1e20,var(--anod));border-radius:8px;padding:34px 38px 32px;box-shadow:0 0 0 1px #3c4245,0 0 0 5px #0e1011,0 0 0 6px #3c4245,0 18px 40px rgba(0,0,0,.35)}
+.plate__type{display:flex;justify-content:space-between;gap:16px;border-bottom:1px solid #3a4043;padding-bottom:12px;margin-bottom:22px;font:400 11px/1.3 var(--wide);letter-spacing:.18em;color:var(--alu)}
+.plate__type span:last-child{color:var(--yel)}
+h1{font:400 clamp(26px,2.9vw,37px)/1.28 var(--wide);letter-spacing:.01em;color:#F1F2F0;margin:0 0 26px;text-wrap:balance}
+.spec{display:grid;grid-template-columns:1fr 1fr;border:1px solid #3a4043;margin:0 0 26px}
+.spec div{padding:12px 16px 13px;border-bottom:1px solid #3a4043}
+.spec div:nth-child(odd){border-right:1px solid #3a4043}
+.spec div:nth-last-child(-n+2){border-bottom:0}
+.spec dt{font:400 9.5px/1.3 var(--wide);letter-spacing:.2em;color:#8E9598;margin-bottom:5px}
+.spec dd{margin:0;font:600 18px/1.3 var(--semi);color:var(--alu)}
+.spec dd em{font-style:normal;font-weight:500;color:#8E9598;font-size:14px}
+.spec dd b{color:var(--yel);font-weight:700}
+.acts{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 24px;font:700 15.5px/1 var(--semi);letter-spacing:.12em;text-transform:uppercase;text-decoration:none;border:1px solid var(--alu);color:var(--alu);transition:background-color .2s,color .2s,border-color .2s}
+.btn:hover{background:var(--alu);color:#141617}
+.btn--y{background:var(--yel);border-color:var(--yel);color:#141617}
+.btn--y:hover{background:#fff;border-color:#fff}
+
+/* lunch menu — plech s vyrazeným textom */
+.lunch{padding:0 0 90px}
+.lunch__top{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:28px}
+.lunch h2{font:400 clamp(28px,3.4vw,44px)/1.15 var(--wide);margin:12px 0 0;color:#F1F2F0}
+.lunch__when{font:600 18px/1.4 var(--semi);color:var(--txt);text-align:right}
+.lunch__when b{display:block;font:400 26px/1.2 var(--wide);color:var(--yel);letter-spacing:.02em}
+.sheet{position:relative;display:grid;grid-template-columns:1fr 330px;gap:0;background:
+  repeating-linear-gradient(90deg,rgba(255,255,255,.12) 0 1px,rgba(0,0,0,.018) 1px 3px),
+  linear-gradient(170deg,#E6E8E8 0,#CDD1D2 60%,#BFC4C6 100%);color:var(--stamp);border-radius:4px;box-shadow:0 0 0 1px rgba(0,0,0,.4),0 1px 0 rgba(255,255,255,.6) inset}
+.sheet__main{padding:38px 40px 40px}
+.keys{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:30px}
+.keys button{position:relative;width:74px;height:62px;border:0;border-radius:4px;background:linear-gradient(180deg,#3a4145,#23282b);color:#DADDDD;font:400 13px/1 var(--wide);letter-spacing:.08em;cursor:pointer;box-shadow:0 3px 0 #111416,0 4px 6px rgba(0,0,0,.35);padding-top:14px;transition:transform .15s,box-shadow .15s}
+.keys button::before{content:"";position:absolute;top:10px;left:50%;width:8px;height:8px;margin-left:-4px;border-radius:50%;background:#50575b;box-shadow:inset 0 1px 1px rgba(0,0,0,.5)}
+.keys button[aria-selected="true"]{transform:translateY(2px);box-shadow:0 1px 0 #111416,0 1px 3px rgba(0,0,0,.35);color:#fff}
+.keys button[aria-selected="true"]::before{background:var(--yel);box-shadow:0 0 8px 2px rgba(242,195,24,.7)}
+.keys button span{display:block;font:600 10.5px/1 var(--semi);letter-spacing:.14em;color:#98a0a3;margin-top:6px}
+.dayp h3{font:400 22px/1.2 var(--wide);letter-spacing:.06em;margin:0 0 18px;text-transform:uppercase;text-shadow:0 1px 0 rgba(255,255,255,.7)}
+.dayp ol{list-style:none;margin:0;padding:0}
+.dayp li{display:grid;grid-template-columns:70px 1fr;gap:18px;align-items:baseline;padding:16px 0;border-top:1px solid rgba(42,48,51,.2);box-shadow:0 1px 0 rgba(255,255,255,.45) inset}
+.code{display:inline-flex;justify-content:center;align-items:center;width:52px;height:34px;border:1.5px solid rgba(42,48,51,.55);border-radius:3px;font:400 15px/1 var(--wide);letter-spacing:.04em;box-shadow:inset 0 1px 2px rgba(0,0,0,.18),0 1px 0 rgba(255,255,255,.7)}
+.dish{font:600 23px/1.3 var(--semi);text-shadow:0 1px 0 rgba(255,255,255,.65)}
+.dish small{display:block;font:600 11.5px/1.3 var(--semi);letter-spacing:.18em;text-transform:uppercase;color:#5f686c;margin-bottom:2px;text-shadow:none}
+.sheet__side{border-left:1px solid rgba(42,48,51,.25);padding:38px 30px 34px;display:flex;flex-direction:column;gap:18px;background:rgba(255,255,255,.14)}
+.fixed{border:1.5px solid rgba(42,48,51,.5);border-radius:4px;padding:18px 18px 16px}
+.fixed .lbl{color:#4b5357}
+.fixed p{margin:8px 0 0;font:500 18px/1.45 var(--semi)}
+.fixed q{quotes:"„" "“"}
+.photo{margin:0;position:relative;background:#101213;padding:8px;border-radius:2px}
+.photo img{width:100%;aspect-ratio:1/1;object-fit:cover;transition:transform .5s cubic-bezier(.2,.7,.3,1)}
+.photo div{overflow:hidden}
+.photo:hover img{transform:scale(1.045)}
+.photo figcaption{font:500 14px/1.35 var(--semi);color:var(--alu);padding:9px 4px 3px}
+.sheet__foot{grid-column:1/-1;border-top:1px solid rgba(42,48,51,.25);padding:14px 40px 16px;font:500 15px/1.45 var(--semi);color:#4b5357}
+
+/* ukazovatele */
+.gauges{background:var(--body-d);border-top:1px solid var(--hl);border-bottom:1px solid var(--hl);padding:70px 0}
+.gauges .g{display:grid;grid-template-columns:1.1fr 1fr 1fr 1fr;gap:32px;align-items:center}
+.gauges h2{font:400 clamp(22px,2.2vw,28px)/1.3 var(--wide);margin:12px 0 0;color:#F1F2F0}
+.gauge{text-align:center}
+.gauge svg{width:100%;max-width:220px;height:auto;display:block;margin:0 auto}
+.gauge b{display:block;font:400 30px/1.1 var(--wide);color:#fff;margin-top:-6px}
+.gauge span{display:block;font:500 15px/1.35 var(--semi);color:var(--mut);margin-top:6px}
+.counter{display:inline-flex;gap:4px;margin:18px auto 14px}
+.counter i{font:400 30px/1 var(--wide);font-style:normal;background:linear-gradient(180deg,#0c0d0e,#1d2123 50%,#0c0d0e);color:#EDEFED;padding:12px 8px;border-radius:3px;min-width:40px;box-shadow:0 0 0 1px #3b4144}
+.counter i.dot{min-width:0;background:none;box-shadow:none;padding:12px 0;color:var(--yel)}
+
+/* tím */
+.team{padding:86px 0}
+.team .g{display:grid;grid-template-columns:1.2fr 1fr;gap:60px;align-items:center}
+.team blockquote{margin:0;font:400 clamp(24px,2.6vw,33px)/1.35 var(--wide);color:#F1F2F0}
+.team blockquote q{quotes:"„" "“"}
+.team cite{display:block;margin-top:18px;font:500 15px/1.4 var(--semi);font-style:normal;color:var(--mut)}
+.tag{position:relative;background:linear-gradient(180deg,#1b1e20,var(--anod));border-radius:6px;padding:30px 32px 28px;box-shadow:0 0 0 1px #3c4245}
+.tag ul{list-style:none;margin:12px 0 16px;padding:0}
+.tag li{font:600 21px/1.3 var(--semi);color:var(--alu);padding:10px 0;border-bottom:1px solid #33393c}
+.tag p{margin:0;color:var(--mut);font-size:16px}
+.tag a{color:var(--yel);font-weight:700;text-decoration:none}
+
+/* kontakt */
+.data{padding:0 0 90px}
+.data .g{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:start}
+.data h2{font:400 clamp(26px,3vw,38px)/1.2 var(--wide);margin:12px 0 26px;color:#F1F2F0}
+.tbl{width:100%;border-collapse:collapse;border:1px solid var(--hl)}
+.tbl th,.tbl td{text-align:left;padding:14px 18px;border-bottom:1px solid var(--hl);vertical-align:top}
+.tbl th{width:34%;font:400 10.5px/1.6 var(--wide);letter-spacing:.16em;color:var(--mut);background:rgba(0,0,0,.14)}
+.tbl td{font:500 18px/1.45 var(--semi)}
+.tbl td a{text-underline-offset:3px}
+.tbl td em{font-style:normal;color:var(--mut);font-size:15px}
+.hrs{list-style:none;margin:0;padding:0}
+.hrs li{display:flex;justify-content:space-between;gap:12px}
+.hrs li[data-today]{color:var(--yel);font-weight:700}
+.side{position:relative;background:linear-gradient(180deg,#1b1e20,var(--anod));border-radius:6px;padding:32px 30px 30px;box-shadow:0 0 0 1px #3c4245}
+.side p{margin:0 0 20px;color:var(--mut);font-size:16.5px}
+.side .btn{width:100%;margin-top:10px}
+
+/* pätička s perforovaným plechom */
+.ft{background:radial-gradient(circle,#1a1f21 2.2px,transparent 2.8px) 0 0/12px 12px,#323a3d;padding:40px 0 44px;font:500 15px/1.5 var(--semi);color:var(--mut)}
+.ft .g{display:flex;justify-content:space-between;gap:10px 30px;flex-wrap:wrap}
+.ft span{background:var(--body-d);padding:6px 12px}
+.ft b{color:var(--txt)}
+
+.bb{display:none}
+@media (max-width:1060px){
+  .frame{grid-column:1/-1}
+  .plate{grid-column:1/-1;grid-row:2;margin:-60px 22px 0}
+  .sheet{grid-template-columns:1fr}
+  .sheet__side{border-left:0;border-top:1px solid rgba(42,48,51,.25);display:grid;grid-template-columns:1fr 1fr;align-items:start}
+  .gauges .g{grid-template-columns:1fr 1fr 1fr}
+  .gauges .g > div:first-child{grid-column:1/-1}
+  .team .g,.data .g{grid-template-columns:1fr}
+  .nv a:not(.ph){display:none}
+}
+@media (max-width:640px){
+  body{font-size:17px;padding-bottom:calc(70px + env(safe-area-inset-bottom))}
+  .g{padding:0 16px}
+  .ntc{font-size:13px}
+  .hdr .g{min-height:72px}
+  .logo img{width:52px;height:37px}
+  .logo b{font-size:12px;letter-spacing:.1em}
+  .logo small{font-size:11.5px}
+  .nv .ph{padding:12px 12px;font-size:14px}
+  .hero{padding:14px 0 54px}
+  .frame{padding:8px}
+  .frame figcaption{right:14px;top:14px;bottom:auto;font-size:12px}
+  .plate{margin:-34px 8px 0;padding:26px 20px 24px}
+  .plate__type{flex-direction:column;gap:4px;font-size:10px}
+  h1{font-size:23px}
+  .spec{grid-template-columns:1fr}
+  .spec div:nth-child(odd){border-right:0}
+  .spec div:nth-last-child(2){border-bottom:1px solid #3a4043}
+  .acts .btn{flex:1 1 100%}
+  .lunch__when{text-align:left}
+  .sheet__main{padding:26px 18px 28px}
+  .keys{gap:7px}
+  .keys button{width:calc(20% - 6px);min-width:0;height:58px;font-size:11.5px}
+  .keys button span{font-size:9.5px;letter-spacing:.06em}
+  .dayp li{grid-template-columns:56px 1fr;gap:12px}
+  .code{width:46px;height:30px;font-size:13px}
+  .dish{font-size:19.5px}
+  .sheet__side{grid-template-columns:1fr;padding:24px 18px}
+  .sheet__foot{padding:14px 18px}
+  .gauges{padding:54px 0}
+  .gauges .g{grid-template-columns:1fr 1fr;gap:26px 16px}
+  .gauges .g > div:last-child{grid-column:1/-1}
+  .gauge b{font-size:22px}
+  .counter i{font-size:24px;min-width:32px;padding:10px 6px}
+  .team{padding:60px 0}
+  .tbl th,.tbl td{display:block;width:auto;padding:10px 14px}
+  .tbl th{border-bottom:0;padding-bottom:4px}
+  .bb{display:grid;grid-template-columns:1fr 1fr;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:40;background:#141617;border-top:1px solid #3c4245;padding:9px 10px calc(9px + env(safe-area-inset-bottom))}
+  .bb a{display:flex;align-items:center;justify-content:center;min-height:50px;font:700 15px/1 var(--semi);letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border:1px solid var(--alu);color:var(--alu)}
+  .bb a:first-child{background:var(--yel);border-color:var(--yel);color:#141617}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+
+<div class="ntc" role="note"><div class="g"><b>Neoficiálny návrh — nie je to oficiálny web podniku</b> · ukážka od webdavid.sk, objednávky ani rezervácie tu nefungujú</div></div>
+
+<header class="hdr">
+  <div class="g">
+    <a class="logo" href="#" aria-label="Industry Coffee Bar — úvod">
+      <img src="assets/znak.webp" width="360" height="256" alt="Znak Industry Coffee Bar: pohár, fľaša a šálka ako budovy">
+      <span><b>INDUSTRY</b><small>Coffee bar · Prešov</small></span>
+    </a>
+    <nav class="nv" aria-label="Hlavná navigácia">
+      <a href="#lunch">Lunch menu</a>
+      <a href="#tim">Tím</a>
+      <a href="#udaje">Kontakt</a>
+      <a class="ph" href="tel:+421907493409">0907 493 409</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" aria-labelledby="h1">
+  <div class="g">
+    <figure class="frame">
+      <img src="assets/dvere.webp" width="1072" height="673" fetchpriority="high" alt="Žltý znak Industry Coffee Bar na sklenených dverách, za nimi rozmazaný interiér s tehlovou stenou a lampami">
+      <figcaption>Vchod · foto z FB stránky</figcaption>
+    </figure>
+    <div class="plate">
+      <span class="rv tl"></span><span class="rv tr"></span><span class="rv bl"></span><span class="rv br"></span>
+      <p class="plate__type"><span>TYP · KAVIAREŇ · RAŇAJKY &amp; BRUNCH</span><span>PREŠOV</span></p>
+      <h1 id="h1">Káva, raňajky a lunch menu na Budovateľskej</h1>
+      <dl class="spec">
+        <div><dt>ADRESA</dt><dd>Budovateľská 34/A, Prešov</dd></div>
+        <div><dt>LUNCH MENU</dt><dd><b>Po–Pi 11:30–14:30</b></dd></div>
+        <div><dt>PREVÁDZKA</dt><dd>Po–Pi 7:00–18:00 <em>overiť</em></dd></div>
+        <div><dt>HODNOTENIE</dt><dd>Google 4,6 · 145 <em>hodnotení</em></dd></div>
+      </dl>
+      <div class="acts">
+        <a class="btn btn--y" href="tel:+421907493409">Zavolať 0907 493 409</a>
+        <a class="btn" href="#lunch">Lunch menu</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="lunch" id="lunch" aria-labelledby="lunch-h">
+  <div class="g">
+    <div class="lunch__top">
+      <div>
+        <p class="lbl">Prevádzkový režim · obed</p>
+        <h2 id="lunch-h">LUNCH MENU</h2>
+      </div>
+      <p class="lunch__when"><b>11:30–14:30</b>pondelok – piatok, od 1. 9. 2026</p>
+    </div>
+
+    <div class="sheet">
+      <span class="rv tl"></span><span class="rv tr"></span><span class="rv bl"></span><span class="rv br"></span>
+      <div class="sheet__main">
+        <div class="keys" role="tablist" aria-label="Deň v týždni">
+          <button type="button" role="tab" data-dow="1" aria-controls="d1" aria-selected="true">PO<span>pondelok</span></button>
+          <button type="button" role="tab" data-dow="2" aria-controls="d2" aria-selected="false">UT<span>utorok</span></button>
+          <button type="button" role="tab" data-dow="3" aria-controls="d3" aria-selected="false">ST<span>streda</span></button>
+          <button type="button" role="tab" data-dow="4" aria-controls="d4" aria-selected="false">ŠT<span>štvrtok</span></button>
+          <button type="button" role="tab" data-dow="5" aria-controls="d5" aria-selected="false">PI<span>piatok</span></button>
+        </div>
+        <div class="dayp" id="d1" role="tabpanel"><h3>Pondelok</h3><ol>
+          <li><span class="code">P1</span><span class="dish"><small>polievka</small>Cesnaková so syrom a krutónmi</span></li>
+          <li><span class="code">M1</span><span class="dish"><small>menu 1</small>Bravčové trhané mäso, kôprová omáčka, knedľa</span></li>
+          <li><span class="code">M2</span><span class="dish"><small>menu 2</small>Plnená kuracia roláda so špenátom, 1/2 ryža, 1/2 hranolky</span></li>
+        </ol></div>
+        <div class="dayp" id="d2" role="tabpanel" hidden><h3>Utorok</h3><ol>
+          <li><span class="code">P1</span><span class="dish"><small>polievka</small>Cesnaková so syrom a krutónmi</span></li>
+          <li><span class="code">M1</span><span class="dish"><small>menu 1</small>Kurací perkelt, kolienka</span></li>
+          <li><span class="code">M2</span><span class="dish"><small>menu 2</small>Zemiaky na kyslo, fašírka, kváskový chlieb</span></li>
+        </ol></div>
+        <div class="dayp" id="d3" role="tabpanel" hidden><h3>Streda</h3><ol>
+          <li><span class="code">P1</span><span class="dish"><small>polievka</small>Fazuľová s údeným</span></li>
+          <li><span class="code">M1</span><span class="dish"><small>menu 1</small>Kuracia pečeň na cibuľke s jablkami, ryža</span></li>
+          <li><span class="code">M2</span><span class="dish"><small>menu 2</small>Medailónky z bravčovej panenky, pečený zemiak, cuketovo-baklažánové ragú</span></li>
+        </ol></div>
+        <div class="dayp" id="d4" role="tabpanel" hidden><h3>Štvrtok</h3><ol>
+          <li><span class="code">P1</span><span class="dish"><small>polievka</small>Fazuľová s údeným</span></li>
+          <li><span class="code">M1</span><span class="dish"><small>menu 1</small>Vyprážaný kurací rezeň, zemiaková kaša, juhočeský svieži šalát</span></li>
+          <li><span class="code">M2</span><span class="dish"><small>menu 2</small>Encián na grile, brusnicová omáčka, varené zemiaky</span></li>
+        </ol></div>
+        <div class="dayp" id="d5" role="tabpanel" hidden><h3>Piatok</h3><ol>
+          <li><span class="code">P1</span><span class="dish"><small>polievka</small>Šampiňónová so zemiakmi</span></li>
+          <li><span class="code">M1</span><span class="dish"><small>menu 1</small>Tagliatelle s lososom</span></li>
+          <li><span class="code">M2</span><span class="dish"><small>menu 2</small>Bravčové vo vlastnej šťave, zeleninová ryža</span></li>
+        </ol></div>
+      </div>
+      <div class="sheet__side">
+        <div class="fixed">
+          <p class="lbl">Stála ponuka</p>
+          <p><q>Skvelý fit šalát Industry (mix šalát, bylinkový balzam, miešaná čerstvá zelenina, varené vajíčko, tuniak alebo kurací steak na grile, balkánsky syr)</q></p>
+        </div>
+        <figure class="photo">
+          <div><img src="assets/tagliatelle.webp" width="760" height="851" loading="lazy" alt="Tagliatelle s kúskami lososa, parmezánom, citrónom a výhonkami na sivom tanieri"></div>
+          <figcaption>Tagliatelle s lososom · foto z FB</figcaption>
+        </figure>
+      </div>
+      <p class="sheet__foot">Ukážka návrhu: jeden týždeň prepísaný z plagátu „LUNCH MENU“ na FB stránke (plagát neuvádza dátum ani ceny). Na webe by sa tu každý týždeň menilo aktuálne menu s cenami.</p>
+    </div>
+  </div>
+</section>
+
+<section class="gauges" aria-labelledby="g-h">
+  <div class="g">
+    <div>
+      <p class="lbl">Ukazovatele</p>
+      <h2 id="g-h">Čo hovoria hostia a sledovatelia</h2>
+    </div>
+    <div class="gauge">
+      <svg viewBox="0 0 200 116" aria-hidden="true"><path d="M20 100 A80 80 0 0 1 180 100" fill="none" stroke="#3d4447" stroke-width="14"/><path d="M20 100 A80 80 0 0 1 180 100" fill="none" stroke="#F2C318" stroke-width="14" pathLength="100" stroke-dasharray="92 100"/><g stroke="#8b9295" stroke-width="2"><line x1="100" y1="10" x2="100" y2="22"/><line x1="10" y1="100" x2="22" y2="100"/><line x1="178" y1="100" x2="190" y2="100"/></g><line x1="100" y1="100" x2="173" y2="81" stroke="#E3E6E3" stroke-width="4" stroke-linecap="round"/><circle cx="100" cy="100" r="8" fill="#E3E6E3"/></svg>
+      <b>4,6 / 5</b><span>Google · 145 hodnotení</span>
+    </div>
+    <div class="gauge">
+      <svg viewBox="0 0 200 116" aria-hidden="true"><path d="M20 100 A80 80 0 0 1 180 100" fill="none" stroke="#F2C318" stroke-width="14"/><g stroke="#8b9295" stroke-width="2"><line x1="100" y1="10" x2="100" y2="22"/><line x1="10" y1="100" x2="22" y2="100"/><line x1="178" y1="100" x2="190" y2="100"/></g><line x1="100" y1="100" x2="180" y2="100" stroke="#E3E6E3" stroke-width="4" stroke-linecap="round"/><circle cx="100" cy="100" r="8" fill="#E3E6E3"/></svg>
+      <b>100 %</b><span>Facebook odporúča · 24 recenzií</span>
+    </div>
+    <div class="gauge">
+      <div class="counter" aria-hidden="true"><i>4</i><i class="dot">,</i><i>3</i><i>K</i></div>
+      <b>4,3 tis.</b><span>sledovateľov na Instagrame</span>
+    </div>
+  </div>
+</section>
+
+<section class="team" id="tim" aria-labelledby="tim-h">
+  <div class="g">
+    <div>
+      <p class="lbl" id="tim-h">Z ich príspevku na Facebooku</p>
+      <blockquote><q>…vedia, že dobrá reštaurácia stojí najmä na ľuďoch.</q><cite>— Industry Coffee Bar o svojom tíme</cite></blockquote>
+    </div>
+    <div class="tag">
+      <span class="rv tl"></span><span class="rv tr"></span><span class="rv bl"></span><span class="rv br"></span>
+      <p class="lbl">Hľadáme do tímu · podľa FB, aktuálnosť overiť</p>
+      <ul>
+        <li>Pomocná sila do kuchyne</li>
+        <li>Brigádnik/čka do obsluhy</li>
+      </ul>
+      <p>Pre viac informácií volajte na <a href="tel:+421907493409">0907 493 409</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="data" id="udaje" aria-labelledby="udaje-h">
+  <div class="g">
+    <div>
+      <p class="lbl">Technické údaje</p>
+      <h2 id="udaje-h">Budovateľská 34/A, Prešov</h2>
+      <table class="tbl">
+        <tr><th scope="row">ADRESA</th><td>Budovateľská 34/A, 080 01 Prešov</td></tr>
+        <tr><th scope="row">TELEFÓN</th><td><a href="tel:+421907493409">0907 493 409</a></td></tr>
+        <tr><th scope="row">PREVÁDZKA</th><td><ul class="hrs">
+          <li data-day="1"><span>Pondelok</span><span>7:00–18:00</span></li>
+          <li data-day="2"><span>Utorok</span><span>7:00–18:00</span></li>
+          <li data-day="3"><span>Streda</span><span>7:00–18:00</span></li>
+          <li data-day="4"><span>Štvrtok</span><span>7:00–18:00</span></li>
+          <li data-day="5"><span>Piatok</span><span>7:00–18:00</span></li>
+        </ul><em>Podľa OpenStreetMap — overiť, aj víkend.</em></td></tr>
+        <tr><th scope="row">LUNCH MENU</th><td>Po–Pi 11:30–14:30 <em>(plagát na FB, od 1. 9. 2026)</em></td></tr>
+        <tr><th scope="row">VYBAVENIE</th><td>posedenie vonku · súkromný salónik <em>(Google)</em></td></tr>
+        <tr><th scope="row">SIEŤ</th><td><a href="https://www.facebook.com/Industrycoffeebar/" rel="noopener" target="_blank">Facebook</a> · <a href="https://www.instagram.com/industry_coffee_bar/" rel="noopener" target="_blank">Instagram @industry_coffee_bar</a></td></tr>
+      </table>
+    </div>
+    <aside class="side">
+      <span class="rv tl"></span><span class="rv tr"></span><span class="rv bl"></span><span class="rv br"></span>
+      <p class="lbl">Cesta</p>
+      <p>Budovateľská 34/A, Prešov. Navigácia sa otvorí v Mapách Google.</p>
+      <a class="btn btn--y" href="https://www.google.com/maps/search/Industry+Coffee+Bar+Pre%C5%A1ov" rel="noopener" target="_blank">Otvoriť v Mapách Google</a>
+      <a class="btn" href="tel:+421907493409">Zavolať 0907 493 409</a>
+      <a class="btn" href="https://www.instagram.com/industry_coffee_bar/" rel="noopener" target="_blank">Instagram</a>
+    </aside>
+  </div>
+</section>
+</main>
+
+<footer class="ft">
+  <div class="g">
+    <span><b>Neoficiálny návrh webu · webdavid.sk · 2026</b></span>
+    <span>Menu a fotky: FB stránka Industry Coffee Bar, stav k 28. 9. 2026.</span>
+  </div>
+</footer>
+
+<nav class="bb" aria-label="Rýchle akcie">
+  <a href="tel:+421907493409">Zavolať</a>
+  <a href="#lunch">Lunch menu</a>
+</nav>
+
+<script>
+(function(){
+  var d;
+  try{ d={Sun:0,Mon:1,Tue:2,Wed:3,Thu:4,Fri:5,Sat:6}[new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Bratislava",weekday:"short"}).format(new Date())]; }catch(e){ d=new Date().getDay(); }
+  var tabs=[].slice.call(document.querySelectorAll("[data-dow][aria-controls]"));
+  function pick(t){ tabs.forEach(function(x){ var on=x===t; x.setAttribute("aria-selected",on?"true":"false"); document.getElementById(x.getAttribute("aria-controls")).hidden=!on; }); }
+  tabs.forEach(function(t){ t.addEventListener("click",function(){ pick(t); }); });
+  var start=tabs.filter(function(t){ return +t.getAttribute("data-dow")===d; })[0] || tabs[0];
+  pick(start);
+  [].forEach.call(document.querySelectorAll('.hrs [data-day="'+d+'"]'),function(r){ r.setAttribute("data-today",""); });
+})();
+</script>
